@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  height: 26vh;
+  line-height: 22vh;
+
+  ion-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+}
+
+ion-content {
+
+    transition: .3s;
+  ion-card {
+    border-radius: 8px;
+    width: 500px;
+    height: 300px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    // background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    // box-shadow: 10px 20px 30px #d9d9d9, -20px -20px 60px #ffffff;
+  }
+
+  ion-card img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    // margin-top: 1em;
+  }
+
+  .text_card {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    position: relative;
+    bottom: 20px;
+  }
+
+  ion-slides {
+    height: 70%;
+    width: 100%;
+    // background: #000;
+  }
+
+  ion-slides ion-slide {
+    position: relative;
+    // bottom: 4rem;
+  }
+
+  .title-vehi {
+    margin: 1rem;
+    margin-bottom: 0;
+    border-bottom: 2px solid;
+    width: 85%;
+    font-weight: 600;
+    // color: red;
+    // font-size: 1.5rem;
+  }
+
+  .title-vehi span {
+    color: var(--ion-color-primary);
+  }
+
+  .ion-add-car {
+    position: relative;
+    right: 4.6rem;
+    bottom: 60px;
+    // display: none;
+    border-radius: 2rem;
+
+    ion-button {
+      width: 150px;
+      height: 50px;
+      font-size: 1.1rem;
+    }
+  }
+
+}

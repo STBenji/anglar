@@ -1,0 +1,70 @@
+<ion-header class="ion-no-border">
+  <ion-content class="content ion-padding ion-text-center">
+    <ion-title>¡HOLA!</ion-title>
+  </ion-content>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1 class="title-vehi">Tus <span>vehiculos</span></h1>
+
+  <ion-slides pager="true">
+    <ion-slide>
+      <ion-card mode="ios">
+        <img
+          class="ion-margin"
+          alt="Silhouette of mountains"
+          src="../../assets/images/1-honda-home.png"
+        />
+
+        <ion-card-header class="ion-margin-vertical">
+          <div class="text_card">
+            <h5 class="tilte-card"><span>Honda</span> - Arcord</h5>
+            <p>Rojo</p>
+          </div>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img
+          class="ion-margin"
+          alt="Silhouette of mountains"
+          src="../../assets/images/2-hyundai-home.png"
+        />
+
+        <ion-card-header class="ion-margin-vertical">
+          <div class="text_card">
+            <h5 class="tilte-card"><span>Hyundai</span> - Accent</h5>
+            <p>Rojo</p>
+          </div>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img
+          class="ion-margin"
+          alt="Silhouette of mountains"
+          src="../../assets/images/3-ferrari-home.png"
+        />
+
+        <ion-card-header class="ion-margin-vertical">
+          <div class="text_card">
+            <h5 class="tilte-card">
+              <span>FerrariF12</span> - Berlinetta coupe
+            </h5>
+            <p>Rojo</p>
+          </div>
+        </ion-card-header>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <div class="ion-add-car">
+      <ion-button shape="round">Añadir</ion-button>
+    </div>
+  </ion-fab>
+</ion-content>

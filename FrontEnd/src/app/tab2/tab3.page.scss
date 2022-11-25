@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content-settings {
+  height: 36vh;
+  line-height: 22vh;
+
+  ion-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+
+  .bg{
+    position: absolute;
+    bottom: 6em;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    transform: rotate(-18deg);
+    background: var(--ion-color-primary);
+  }
+}
